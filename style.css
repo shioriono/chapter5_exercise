@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: blue;
+}
+
+header{
+ width: 100%;
+ padding: 20px 0;
+ text-align: center;
+ font-size: 23px;
+}
+
+nav{
+ border:solid black;
+ border-top-width: 1px;      /* 上側に5pxのborderを指定 */
+ border-right-width: 0px;    /* 右側に5pxのborderを指定 */
+ border-bottom-width: 1px;   /* 下側に5pxのborderを指定 */
+ border-left-width: 0px;     /* 左側に5pxのborderを指定 */
+}
+
+.nav-list{
+  text-align: center;
+  padding:15px 0;
+  margin:0 auto;
+}
+
+.nav-list-item{
+  margin:  0 20px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.main{
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.green{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.e6ffe9{
+  background-color: #e6ffe9;
+  height: 200px;
+  width: 200px;
+}
+
+.cbffd3{
+  background-color: #cbffd3;
+  height: 200px;
+  width: 200px;
+}
+
+.aeffbd{
+  background-color: #aeffbd;
+  height: 200px;
+  width: 200px;
+}
+
+.a93ffab{
+  background-color: #93ffab;
+  height: 200px;
+  width: 200px;
+}
+
+.yellow{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.f3ffd8{
+  background-color:#f3ffd8;
+  height: 200px;
+  width: 200px;
+}
+
+.edffbe{
+  background-color:#edffbe;
+  height: 200px;
+  width: 200px;
+}
+
+.e9ffa5{
+  background-color:#e9ffa5;
+  height: 200px;
+  width: 200px;
+}
+
+.e4ff8d{
+  background-color:#e4ff8d;
+  height: 200px;
+  width: 200px;
+}
+
+.blue{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.d9e5ff{
+  background-color:#d9e5ff;
+  height: 200px;
+  width: 200px;
+}
+
+.bad3ff{
+  background-color:#bad3ff;
+  height: 200px;
+  width: 200px;
+}
+
+.a4c6ff{
+  background-color:#a4c6ff;
+  height: 200px;
+  width: 200px;
+}
+
+.a8eb8ff{
+  background-color:#8eb8ff;
+  height: 200px;
+  width: 200px;
+}
+
+
+
+footer{
+  background-color: grey;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.footer-text{
+  font-size: 12px;
+  color: white;
+}
